@@ -238,6 +238,7 @@ static const CGFloat kDetailsLabelFontSize = 12.f;
 #if NS_BLOCKS_AVAILABLE
 	[completionBlock release];
 #endif
+    self.activityIndicatorColor = nil;
 	[super dealloc];
 #endif
 }
